@@ -1,0 +1,21 @@
+Author:
+Parth Patel
+0961668
+ppatel12@uoguelph.ca
+12/2/2017
+
+
+How to compile/run
+
+Once you are in the source folder in the terminal, simple type in "make" and 
+the program will compile successfully. Then type in "./bin/program assets/<dictionary filename>"
+(assuming all dictionary files are in assets) all the keywords and sentences will be added to the tree
+and then you will be introduced to the user interface menu. You can teach Eliza a new rule (Option 1), 
+make Eliza forget a rule (Option 2),see all the rules (Option 3) modify a rule (Option 4), and finally
+have a conversation with Eliza using (Option 5) 
+
+
+Limitations
+
+If the file doesn't exist or the input for filename is incorrect the program exits
+The file doesn't have enough rules so the conversation with the AI would be short

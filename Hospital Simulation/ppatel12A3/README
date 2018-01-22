@@ -1,0 +1,31 @@
+Author:
+Parth Patel
+0961668
+ppatel12@uoguelph.ca
+11/14/2017
+
+
+How to compile/run
+
+Once you are in the source folder in the terminal, simple type in "make" and 
+the program will compile successfully. Then type in "./bin/program assets/<dictionary filename>"
+(assuming all dictionary files are in assets) all the words will be added to the hash table and 
+then you will be introduced to the user interface menu. You can add to the table (option 1), 
+remove from the table (option 2),see entire table (option 4) and spell check a file (option 3), to
+run the spell check function you must type in "assets/<filename>". 
+
+
+Hash Function and Collision Resolution Strategy  
+
+For the hash function, to determine a key for each word I took the ascii number of the character
+and then mulitpled it by (i + 1) for every iteration for the length of the word. 
+
+For the collision issue, I created a table with 26 index and took the key of every word and mod it
+by 26, once i found the index I created a linked list at the index and stored all the words with 
+the same index.
+
+
+
+Limitations
+
+If the file doesn't exist or the input for filename is incorrect the program exits
